@@ -1,0 +1,10 @@
+.main_nav{
+    width: 150px;
+    height: 100%;
+    float: left;
+    background: #c0c0c0;
+    cursor: pointer;
+}
+.main_content{
+    background: #333333;
+}
