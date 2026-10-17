@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Data center networks</title>
+  <desc id="desc">Two interconnected network switches serve three server racks. A gold path highlights traffic between a switch and a rack.</desc>
+  <rect width="320" height="180" rx="16" fill="#f8f9f6"/>
+  <g stroke="#b6caa8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M99 44H221M76 55V72H58V94M88 55V72H160V94M232 55V80H172V94M244 55V72H262V94"/>
+  </g>
+  <path d="M99 44H221M244 55V72H262V94" stroke="#d6b976" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M150 40L155 44L150 48M258 84L262 89L266 84" stroke="#d6b976" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#28654e">
+    <rect x="53" y="33" width="46" height="22" rx="5"/>
+    <rect x="221" y="33" width="46" height="22" rx="5"/>
+  </g>
+  <g stroke="#b6caa8" stroke-width="1.4" stroke-linecap="round">
+    <path d="M61 41H69M61 46H69M229 41H237M229 46H237"/>
+  </g>
+  <g fill="#b6caa8">
+    <rect x="78" y="41" width="3" height="6" rx="1"/>
+    <rect x="84" y="41" width="3" height="6" rx="1"/>
+    <rect x="90" y="41" width="3" height="6" rx="1"/>
+    <rect x="246" y="41" width="3" height="6" rx="1"/>
+    <rect x="252" y="41" width="3" height="6" rx="1"/>
+  </g>
+  <rect x="258" y="41" width="3" height="6" rx="1" fill="#d6b976"/>
+  <g fill="#fff" stroke="#28654e" stroke-width="1.5">
+    <rect x="35" y="94" width="46" height="61" rx="5"/>
+    <rect x="137" y="94" width="46" height="61" rx="5"/>
+    <rect x="239" y="94" width="46" height="61" rx="5"/>
+  </g>
+  <g fill="#e4ebde">
+    <rect x="41" y="101" width="34" height="12" rx="2"/>
+    <rect x="41" y="117" width="34" height="12" rx="2"/>
+    <rect x="41" y="133" width="34" height="12" rx="2"/>
+    <rect x="143" y="101" width="34" height="12" rx="2"/>
+    <rect x="143" y="117" width="34" height="12" rx="2"/>
+    <rect x="143" y="133" width="34" height="12" rx="2"/>
+    <rect x="245" y="101" width="34" height="12" rx="2"/>
+    <rect x="245" y="117" width="34" height="12" rx="2"/>
+    <rect x="245" y="133" width="34" height="12" rx="2"/>
+  </g>
+  <rect x="245" y="101" width="34" height="12" rx="2" fill="#d6b976" fill-opacity=".55"/>
+  <g fill="#28654e">
+    <circle cx="47" cy="107" r="1.5"/>
+    <circle cx="47" cy="123" r="1.5"/>
+    <circle cx="47" cy="139" r="1.5"/>
+    <circle cx="149" cy="107" r="1.5"/>
+    <circle cx="149" cy="123" r="1.5"/>
+    <circle cx="149" cy="139" r="1.5"/>
+    <circle cx="251" cy="107" r="1.5"/>
+    <circle cx="251" cy="123" r="1.5"/>
+    <circle cx="251" cy="139" r="1.5"/>
+  </g>
+  <g stroke="#8caa87" stroke-width="1.2" stroke-linecap="round">
+    <path d="M62 107H69M62 123H69M62 139H69M164 107H171M164 123H171M164 139H171M266 107H273M266 123H273M266 139H273M42 159H74M144 159H176M246 159H278"/>
+  </g>
+</svg>

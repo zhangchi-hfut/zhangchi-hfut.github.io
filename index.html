@@ -1,212 +1,316 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Chi Zhang</title>
-    <style>
-        body {
-    font-family: "Times New Roman", Times, serif;
-  }
-       ul {
-      list-style-position: inside; /* 确保标记在内容内部 */
-    }
-
-    li {
-    margin-bottom: 10px; /* 设置行间距为10px */
-  }
-    li span {
-      display: block; /* 强制每个span换行 */
-      padding-left: 20px; /* 为每个span设置缩进 */
-    }
-    .image-div {
-    float: left; /* 让图片所在的 div 向左浮动 */
-    margin-right: 20px; /* 图片和文字之间的间距 */
-  }
-  .text-div {
-    overflow: hidden; /* 确保文字不被浮动影响 */
-  }
-  .container {
-    display: flex; /* 图片和文字并排 */
-    align-items: center;
-    margin-bottom: 20px; /* 给新段落留空 */
-  }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f9f6">
+  <meta name="description" content="Chi Zhang (张弛), Associate Professor at Hefei University of Technology. Research in online algorithms, edge computing, and networked systems.">
+  <title>Chi Zhang · 张弛 | Hefei University of Technology</title>
+  <link rel="icon" href="assets/image/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="src/css/main.css">
+  <script src="src/js/main.js" defer></script>
 </head>
-<body>
-<div class="container">
-    <div class="image-div"> <img src="assets/image/zhangchi.png" alt="照片"   height="300"/> </div>
-    <div class="text-div">
-    <h1>Chi Zhang 张弛</h1>
-    <a href="https://ci.hfut.edu.cn/" target="_blank">School of Computer Science and Information Engineering</a><br>
-    <a href="https://www.hfut.edu.cn/" target="_blank">Hefei University of Technology</a> </br>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="icon-file" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9Z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+  </svg>
 
-    <p>
-        Email: zhangchi at hfut.edu.cn </br>
-        Office: Room 1604, Kejiao Building A, Feicuihu Campus
-    </p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#top" aria-label="Chi Zhang, back to top"><span class="monogram">CZ<span>.</span></span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#research">Research</a>
+        <a class="nav-link" href="#publications">Publications</a>
+        <a class="nav-link" href="#honors">Honors</a>
+      </nav>
+      <a class="header-contact" href="mailto:zhangchi@hfut.edu.cn">Get in touch <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+    </div>
+  </header>
 
-    <hr>
+  <main id="main" class="page-shell">
+    <section class="hero" aria-labelledby="profile-name">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Algorithms · Networks · Systems</p>
+        <h1 id="profile-name">Chi Zhang <span lang="zh-CN">张弛</span></h1>
+        <p class="role">Associate Professor</p>
+        <p class="affiliation"><a href="https://ci.hfut.edu.cn/" target="_blank" rel="noopener noreferrer">School of Computer Science and Information Engineering</a><br><a class="university" href="https://www.hfut.edu.cn/" target="_blank" rel="noopener noreferrer">Hefei University of Technology</a></p>
+        <p class="hero-description">Designing online algorithms with provable performance guarantees for practical networking systems.</p>
+        <div class="profile-contact">
+          <a href="mailto:zhangchi@hfut.edu.cn"><svg class="icon" aria-hidden="true"><use href="#icon-mail"/></svg>zhangchi@hfut.edu.cn</a>
+          <p><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg><span>Room 1604, Kejiao Building A<br>Feicuihu Campus, Hefei, China</span></p>
+        </div>
+      </div>
+      <figure class="portrait-wrap">
+        <div class="portrait-frame"><img class="portrait" src="assets/image/portrait.jpg" width="600" height="750" alt="Chi Zhang standing in a garden" fetchpriority="high"></div>
+      </figure>
+    </section>
 
-    <p>
-    张弛，博士（导师：<a href="http://staff.ustc.edu.cn/~xiangyangli/" target="_blank">李向阳</a>，<a href="http://staff.ustc.edu.cn/~hstan/" target="_blank">谈海生</a>），现为合肥工业大学计算机与信息学院副教授。主要研究移动边缘计算和数据中心网络中的在线问题，包括流调度、任务调度、文件缓存等，旨在针对实际中的网络问题提供具有理论性能保证的在线解决方案，相关研究成果发表在IEEE/ACM ToN、IEEE INFOCOM、ACM MobiHoc及IEEE ICDCS等计算机网络/分布式领域的国际顶级期刊和会议上，并担任期刊IEEE TMC审稿人。 </br> </br>
-    
-    <b>招生：欢迎对网络算法、边缘智能感兴趣的学生报考！</b> </br> </br>
+    <aside class="recruitment" aria-label="Student opportunities">
+      <div class="recruitment-heading"><span class="status-dot" aria-hidden="true"></span><span>Prospective students</span></div>
+      <div class="recruitment-copy"><p lang="zh-CN">欢迎对网络算法、边缘智能感兴趣的同学报考硕士研究生！</p><p>I am looking for master's students interested in networking algorithms and edge intelligence. Feel free to contact me.</p></div>
+      <a class="recruitment-link" href="mailto:zhangchi@hfut.edu.cn" aria-label="Email Chi Zhang about student opportunities"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a>
+    </aside>
 
-    I received my Ph.D. degree from the University of Science and Technology of China (USTC) in 2023 (supervised by <a href="http://staff.ustc.edu.cn/~xiangyangli/" target="_blank">Prof. Xiang-Yang Li</a> 
-    and <a href="http://staff.ustc.edu.cn/~hstan/" target="_blank">Prof. Haisheng Tan</a>). I am currently an associate professor at the School of Computer Science and Information Engineering, Hefei University of Technology. 
-    Recently I am mainly working on online problems in mobile edge computing and data center networks, including flow scheduling, job scheduling, and file caching, aiming at online solution with performance guarantees for practical networking issues. My related research findings have been published in top-tier international journals and conferences in the fields of computer networks/distributed systems, such as IEEE/ACM ToN, IEEE INFOCOM, ACM MobiHoc, and IEEE ICDCS.
-    I also serve as a reviewer for the IEEE TMC journal. </br> </br>
+    <section class="content-section about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="section-kicker">01 / Introduction</p><h2 id="about-title">About me<span class="heading-dot">.</span></h2></div>
+      <div class="about-copy">
+        <p>I received my Ph.D. from the University of Science and Technology of China (USTC) in 2023, supervised by <a href="http://staff.ustc.edu.cn/~xiangyangli/" target="_blank" rel="noopener noreferrer">Prof. Xiang-Yang Li</a> and <a href="http://staff.ustc.edu.cn/~hstan/" target="_blank" rel="noopener noreferrer">Prof. Haisheng Tan</a>. I am also a <strong>Humboldt Research Fellow</strong>, awarded the fellowship in 2023 with <a href="https://user.informatik.uni-goettingen.de/~fu/" target="_blank" rel="noopener noreferrer">Prof. Xiaoming Fu</a> as my host.</p>
+        <p>My research focuses on online problems in mobile edge computing and data center networks, including flow scheduling, job scheduling, and file caching. I develop online solutions with performance guarantees for practical networking problems. My work has appeared in IEEE/ACM ToN, IEEE INFOCOM, ACM MobiHoc, and IEEE ICDCS. I also serve as a reviewer for IEEE TMC.</p>
+        <div class="bio-chinese" lang="zh-CN"><span class="language-label">中文简介</span><p>博士，洪堡学者，现为合肥工业大学计算机与信息学院副教授。博士毕业于中国科学技术大学，导师为<a href="http://staff.ustc.edu.cn/~xiangyangli/" target="_blank" rel="noopener noreferrer">李向阳</a>教授和<a href="http://staff.ustc.edu.cn/~hstan/" target="_blank" rel="noopener noreferrer">谈海生</a>教授。主要研究移动边缘计算和数据中心网络中的在线问题，包括流调度、任务调度、文件缓存等，旨在针对实际中的网络问题提供具有理论性能保证的在线解决方案。相关研究成果发表在 IEEE/ACM ToN、IEEE INFOCOM、ACM MobiHoc 及 IEEE ICDCS 等计算机网络与分布式领域的国际顶级期刊和会议上，并担任 IEEE TMC 期刊审稿人。</p></div>
+      </div>
+    </section>
 
-    <b>I am looking for master students interested in networking algorithms and edge intelligence. If you are interested in working with me, feel free to contact me.</b>
-  </p>
+    <section class="content-section research-section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><p class="section-kicker">02 / Research interests</p><h2 id="research-title">What I work on<span class="heading-dot">.</span></h2></div>
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="research-illustration"><img src="assets/image/research-online.svg" width="320" height="180" alt="Arriving tasks are assigned to a schedule by an online algorithm" loading="lazy"></div>
+          <div class="research-card-copy"><h3>Online Algorithms</h3><p>Scheduling and caching with provable performance guarantees.</p><span class="research-cn" lang="zh-CN">在线算法</span></div>
+        </article>
+        <article class="research-card">
+          <div class="research-illustration"><img src="assets/image/research-edge.svg" width="320" height="180" alt="An edge server connects nearby devices to the cloud" loading="lazy"></div>
+          <div class="research-card-copy"><h3>Edge Computing</h3><p>Resource allocation and efficient intelligence at the network edge.</p><span class="research-cn" lang="zh-CN">边缘计算与智能</span></div>
+        </article>
+        <article class="research-card">
+          <div class="research-illustration"><img src="assets/image/research-datacenter.svg" width="320" height="180" alt="Network switches route a highlighted flow between server racks" loading="lazy"></div>
+          <div class="research-card-copy"><h3>Data Center Networks</h3><p>Flow scheduling and network optimization for distributed systems.</p><span class="research-cn" lang="zh-CN">数据中心网络</span></div>
+        </article>
+      </div>
+    </section>
 
-</div>
-</div>
-    <h2>Research</h2>
-    (*: Corresponding Author, †: Co-corresponding Author)
-    <h3>Journal Papers </h3>
-    <ul>
-      <li> <b>A Framework for Dynamic Quantum Circuit Execution: Balancing Effectiveness and Efficiency</b> 
-        [<a href="assets/paper/TCAD 2025.pdf" target="_blank">paper</a>]. 
-        <span>Fangzheng Chen, Hao Fu, Mingzheng Zhu, <b>Chi Zhang</b>, Wei Xie, Xiang-Yang Li, </span>
-        <span>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD) 2025. (<b>CCF-A</b>) </span>
-    </li>
-      <li> <b>Ecmas+: Efficient Circuit Mapping and Scheduling for Surface Code Encoded Circuit on Quantum Cloud Platform</b> 
-        [<a href="assets/paper/TACO 2025.pdf" target="_blank">paper</a>]. 
-        <span> Mingzheng Zhu, Hao Fu, Haishan Song, Jun Wu, <b>Chi Zhang</b>, Wei Xie, Xiang-Yang Li, </span>
-        <span>ACM Transactions on Architecture and Code Optimization (ACM TACO) 2025. (<b>CCF-A</b>) </span>
-    </li> 
-      <li> <b>Online Container Caching for IoT Data Processing in Serverless Edge Computing</b> 
-        [<a href="assets/paper/TPDS 2025.pdf" target="_blank">paper</a>].
-        <span>Guopeng Li, Haisheng Tan, <b>Chi Zhang</b>, Xuan Zhang, Guoliang Chen, </span>
-        <span>IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS) 2025. (<b>CCF-A</b>) </span>
-    </li> 
-      <li> <b>Efficient Quantum Circuit Execution with Continuous Distribution of Entanglement</b> 
-        [<a href="assets/paper/PRA 2025.pdf" target="_blank">paper</a>]. 
-        <span>Hao Fu, Fangzheng Chen, Mingzheng Zhu, <b>Chi Zhang</b>, Jun Wu, Wei Xie, Xiang-Yang Li, </span>
-        <span>Physical Review A, 2025. (<b>SCI 2区</b>) </span>
-    </li>  
+    <section class="content-section publications-section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading section-heading-wide"><div><p class="section-kicker">03 / Research output</p><h2 id="publications-title">Publications<span class="heading-dot">.</span></h2></div><span class="publication-total"><span class="publication-count">22</span> papers</span></div>
+      <p class="publication-legend">* Corresponding author &nbsp; · &nbsp; † Co-corresponding author</p>
+      <div class="publication-tools">
+        <div class="filter-group" role="group" aria-label="Publication type"><button class="filter-button" type="button" data-filter="all" aria-pressed="true">All papers <span class="filter-count">22</span></button><button class="filter-button" type="button" data-filter="journal" aria-pressed="false">Journals <span class="filter-count">11</span></button><button class="filter-button" type="button" data-filter="conference" aria-pressed="false">Conferences <span class="filter-count">11</span></button></div>
+        <label class="publication-search"><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg><span class="sr-only">Search publications by title, author, venue, or year</span><input id="publication-search" type="search" placeholder="Search publications…" autocomplete="off"></label>
+      </div>
+      <p id="publication-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true">22 publications</p>
+      <div class="publication-list">
+          <article class="publication" data-type="conference" data-year="2026">
+            <div class="publication-meta"><span class="venue-badge">INFOCOM</span><span class="publication-year">2026</span></div>
+            <div class="publication-body">
+              <h3>Memory-Efficient KV Cache Optimization for Large Language Model Inference at the Edge</h3>
+              <p class="publication-authors"><b>Chi Zhang</b>, Haisheng Tan, Haotian Pan, Yang Xu, Haohua Du, Li Zhang, Xiaoming Fu</p>
+              <p class="publication-venue">IEEE International Conference on Computer Communications (IEEE INFOCOM) 2026. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/INFOCOM 2026.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Memory-Efficient KV Cache Optimization for Large Language Model Inference at the Edge"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2025">
+            <div class="publication-meta"><span class="venue-badge">TCAD</span><span class="publication-year">2025</span></div>
+            <div class="publication-body">
+              <h3>A Framework for Dynamic Quantum Circuit Execution: Balancing Effectiveness and Efficiency</h3>
+              <p class="publication-authors">Fangzheng Chen, Hao Fu, Mingzheng Zhu, <b>Chi Zhang</b>, Wei Xie, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD) 2025. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TCAD 2025.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: A Framework for Dynamic Quantum Circuit Execution: Balancing Effectiveness and Efficiency"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2025">
+            <div class="publication-meta"><span class="venue-badge">TACO</span><span class="publication-year">2025</span></div>
+            <div class="publication-body">
+              <h3>Ecmas+: Efficient Circuit Mapping and Scheduling for Surface Code Encoded Circuit on Quantum Cloud Platform</h3>
+              <p class="publication-authors">Mingzheng Zhu, Hao Fu, Haishan Song, Jun Wu, <b>Chi Zhang</b>, Wei Xie, Xiang-Yang Li</p>
+              <p class="publication-venue">ACM Transactions on Architecture and Code Optimization (ACM TACO) 2025. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TACO 2025.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Ecmas+: Efficient Circuit Mapping and Scheduling for Surface Code Encoded Circuit on Quantum Cloud Platform"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2025">
+            <div class="publication-meta"><span class="venue-badge">TPDS</span><span class="publication-year">2025</span></div>
+            <div class="publication-body">
+              <h3>Online Container Caching for IoT Data Processing in Serverless Edge Computing</h3>
+              <p class="publication-authors">Guopeng Li, Haisheng Tan, <b>Chi Zhang</b>, Xuan Zhang, Guoliang Chen</p>
+              <p class="publication-venue">IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS) 2025. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TPDS 2025.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online Container Caching for IoT Data Processing in Serverless Edge Computing"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2025">
+            <div class="publication-meta"><span class="venue-badge">PRA</span><span class="publication-year">2025</span></div>
+            <div class="publication-body">
+              <h3>Efficient Quantum Circuit Execution with Continuous Distribution of Entanglement</h3>
+              <p class="publication-authors">Hao Fu, Fangzheng Chen, Mingzheng Zhu, <b>Chi Zhang</b>, Jun Wu, Wei Xie, Xiang-Yang Li</p>
+              <p class="publication-venue">Physical Review A, 2025. <span class="publication-distinction">SCI 2区</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/PRA 2025.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Efficient Quantum Circuit Execution with Continuous Distribution of Entanglement"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2025">
+            <div class="publication-meta"><span class="venue-badge">CRAD</span><span class="publication-year">2025</span></div>
+            <div class="publication-body">
+              <h3>边缘智能计算系统中加速推荐模型训练的样本调度机制</h3>
+              <p class="publication-authors">李国鹏, 谈海生†, <b>张弛†</b>, 倪宏秋, 王子龙, 章馨月, 徐洋, 田晗, 陈国良</p>
+              <p class="publication-venue">计算机研究与发展, 2025. <span class="publication-distinction ccf-badge ccf-a">CCF-A 中文</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/CRAD 2025.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: 边缘智能计算系统中加速推荐模型训练的样本调度机制"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2025">
+            <div class="publication-meta"><span class="venue-badge">TON</span><span class="publication-year">2025</span></div>
+            <div class="publication-body">
+              <h3>Asymptotically Tight Approximation for Online File Caching with Delayed Hits and Bypassing</h3>
+              <p class="publication-authors">Haisheng Tan, Yi Wang, <b>Chi Zhang *</b>, Guopeng Li, Haohua Du, Zhenhua Han, Shaofeng H.-C. Jiang, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE Transactions on Networking (IEEE ToN) 2025. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TON 2025.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Asymptotically Tight Approximation for Online File Caching with Delayed Hits and Bypassing"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2024">
+            <div class="publication-meta"><span class="venue-badge">TCAD</span><span class="publication-year">2024</span></div>
+            <div class="publication-body">
+              <h3>Effective and Efficient Parallel Qubit Mapper</h3>
+              <p class="publication-authors">Hao Fu, Mingzheng Zhu, Fangzheng Chen, <b>Chi Zhang</b>, Jun Wu, Wei Xie, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD) 2024. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TCAD 2024.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Effective and Efficient Parallel Qubit Mapper"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2024">
+            <div class="publication-meta"><span class="venue-badge">CRAD</span><span class="publication-year">2024</span></div>
+            <div class="publication-body">
+              <h3>频谱受限下容量优化的多标签并发反射通信系统</h3>
+              <p class="publication-authors">李向阳, 王山岳, <b>张弛</b>, 闫宇博, 谈海生</p>
+              <p class="publication-venue">计算机研究与发展, 2024. <span class="publication-distinction ccf-badge ccf-a">CCF-A 中文</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/CRAD 2024.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: 频谱受限下容量优化的多标签并发反射通信系统"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2024">
+            <div class="publication-meta"><span class="venue-badge">TPDS</span><span class="publication-year">2024</span></div>
+            <div class="publication-body">
+              <h3>Communication-Efficient Regret-Optimal Distributed Online Convex Optimization</h3>
+              <p class="publication-authors">Jiandong Liu, Lan Zhang, Fengxiang He, <b>Chi Zhang</b>, Shanyang Jiang, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS) 2024. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TPDS 2024.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Communication-Efficient Regret-Optimal Distributed Online Convex Optimization"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2024">
+            <div class="publication-meta"><span class="venue-badge">ICDE</span><span class="publication-year">2024</span></div>
+            <div class="publication-body">
+              <h3>Online Container Caching with Late-Warm for IoT Data Processing</h3>
+              <p class="publication-authors">Guopeng Li, Haisheng Tan, Xuan Zhang, <b>Chi Zhang</b>, Ruiting Zhou, Zhenhua Han, Guoliang Chen</p>
+              <p class="publication-venue">IEEE International Conference on Data Engineering (IEEE ICDE) 2024. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/ICDE 2024.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online Container Caching with Late-Warm for IoT Data Processing"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2024">
+            <div class="publication-meta"><span class="venue-badge">CGO</span><span class="publication-year">2024</span></div>
+            <div class="publication-body">
+              <h3>Ecmas: Efficient Circuit Mapping and Scheduling for Surface Code</h3>
+              <p class="publication-authors">Mingzheng Zhu, Hao Fu, Jun Wu, <b>Chi Zhang</b>, Wei Xie, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE/ACM International Symposium on Code Generation and Optimization (IEEE/ACM CGO) 2024. <span class="publication-distinction ccf-badge ccf-b">CCF-B</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/CGO 2024.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Ecmas: Efficient Circuit Mapping and Scheduling for Surface Code"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2023">
+            <div class="publication-meta"><span class="venue-badge">TON</span><span class="publication-year">2023</span></div>
+            <div class="publication-body">
+              <h3>Online Approximation Scheme for Scheduling Heterogeneous Utility Jobs in Edge Computing</h3>
+              <p class="publication-authors"><b>Chi Zhang</b>, Haisheng Tan, Haoqiang Huang, Zhenhua Han, Shaofeng H-C Jiang, Guopeng Li, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE/ACM Transactions on Networking (IEEE/ACM ToN) 2023. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TON 2023.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online Approximation Scheme for Scheduling Heterogeneous Utility Jobs in Edge Computing"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2023">
+            <div class="publication-meta"><span class="venue-badge">IWQoS</span><span class="publication-year">2023</span></div>
+            <div class="publication-body">
+              <h3>Online Midgress-Sensitive Traffic Allocation for Percentile Charging in Practical CDNs</h3>
+              <p class="publication-authors">Huiyou Zhan, Haisheng Tan, Huang Xu, <b>Chi Zhang</b>, Hongqiu Ni, Pengfei Zhang, Weihua Shan, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE/ACM International Symposium on Quality of Service (IEEE/ACM IWQoS) 2023. <span class="publication-distinction ccf-badge ccf-b">CCF-B</span> <span class="publication-note">Best Paper Award Candidate</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/IWQoS 2023.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online Midgress-Sensitive Traffic Allocation for Percentile Charging in Practical CDNs"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2023">
+            <div class="publication-meta"><span class="venue-badge">INFOCOM</span><span class="publication-year">2023</span></div>
+            <div class="publication-body">
+              <h3>Dynamic Resource Allocation for Deep Learning Clusters with Separated Compute and Storage</h3>
+              <p class="publication-authors">Mingxia Li, Zhenhua Han, <b>Chi Zhang</b>, Ruiting Zhou, Yuanchi Liu, Haisheng Tan</p>
+              <p class="publication-venue">IEEE International Conference on Computer Communications (IEEE INFOCOM) 2023. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/INFOCOM 2023.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Dynamic Resource Allocation for Deep Learning Clusters with Separated Compute and Storage"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2022">
+            <div class="publication-meta"><span class="venue-badge">INFOCOM</span><span class="publication-year">2022</span></div>
+            <div class="publication-body">
+              <h3>Online File Caching in Latency-Sensitive Systems with Delayed Hits and Bypassing</h3>
+              <p class="publication-authors"><b>Chi Zhang</b>, Haisheng Tan, Guopeng Li, Zhenhua Han, Shaofeng H-C Jiang, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE International Conference on Computer Communications (IEEE INFOCOM) 2022. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/INFOCOM 2022.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online File Caching in Latency-Sensitive Systems with Delayed Hits and Bypassing"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2022">
+            <div class="publication-meta"><span class="venue-badge">CSoNet</span><span class="publication-year">2022</span></div>
+            <div class="publication-body">
+              <h3>Online File Caching on Multiple Caches in Latency-Sensitive Systems</h3>
+              <p class="publication-authors">Guopeng Li, <b>Chi Zhang</b>, Hongqiu Ni, Haisheng Tan</p>
+              <p class="publication-venue">The International Conference on Computational Data and Social Networks (CSoNet) 2022. <span class="publication-distinction">Invited Paper</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/CSoNet 2022.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online File Caching on Multiple Caches in Latency-Sensitive Systems"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2022">
+            <div class="publication-meta"><span class="venue-badge">WASA</span><span class="publication-year">2022</span></div>
+            <div class="publication-body">
+              <h3>Cross-Model Operator Batching for Neural Network Architecture Search</h3>
+              <p class="publication-authors">Lingling Ye, <b>Chi Zhang</b>, Mingxia Li, Zhenhua Han, Haisheng Tan</p>
+              <p class="publication-venue">International Conference on Wireless Algorithms, Systems, and Applications (WASA) 2022. <span class="publication-distinction ccf-badge ccf-c">CCF-C</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/WASA 2022.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Cross-Model Operator Batching for Neural Network Architecture Search"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="journal" data-year="2021">
+            <div class="publication-meta"><span class="venue-badge">TON</span><span class="publication-year">2021</span></div>
+            <div class="publication-body">
+              <h3>Regularization-based Coflow Scheduling in Optical Circuit Switches</h3>
+              <p class="publication-authors">Haisheng Tan, <b>Chi Zhang</b>, Chao Xu, Yupeng Li, Zhenhua Han, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE/ACM Transactions on Networking (IEEE/ACM ToN) 2021. <span class="publication-distinction ccf-badge ccf-a">CCF-A</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/TON 2021.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Regularization-based Coflow Scheduling in Optical Circuit Switches"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2020">
+            <div class="publication-meta"><span class="venue-badge">MobiHoc</span><span class="publication-year">2020</span></div>
+            <div class="publication-body">
+              <h3>Online Dispatching and Scheduling of Jobs with Heterogeneous Utilities in Edge Computing</h3>
+              <p class="publication-authors"><b>Chi Zhang</b>, Haisheng Tan, Haoqiang Huang, Zhenhua Han, Shaofeng H-C Jiang, Nikolaos Freris, Xiang-Yang Li</p>
+              <p class="publication-venue">ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (ACM MobiHoc) 2020. <span class="publication-distinction ccf-badge ccf-b">CCF-B</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/Mobihoc 2020.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Online Dispatching and Scheduling of Jobs with Heterogeneous Utilities in Edge Computing"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2019">
+            <div class="publication-meta"><span class="venue-badge">ICDCS</span><span class="publication-year">2019</span></div>
+            <div class="publication-body">
+              <h3>Reco: Efficient Regularization-based Coflow Scheduling in Optical Circuit Switches</h3>
+              <p class="publication-authors"><b>Chi Zhang</b>, Haisheng Tan, Chao Xu, Xiang-Yang Li, Shaojie Tang, Yupeng Li</p>
+              <p class="publication-venue">IEEE International Conference on Distributed Computing Systems (IEEE ICDCS) 2019. <span class="publication-distinction ccf-badge ccf-b">CCF-B</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/ICDCS 2019.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: Reco: Efficient Regularization-based Coflow Scheduling in Optical Circuit Switches"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+          <article class="publication" data-type="conference" data-year="2018">
+            <div class="publication-meta"><span class="venue-badge">ICC</span><span class="publication-year">2018</span></div>
+            <div class="publication-body">
+              <h3>OMCO: Online Multiple Coflow Scheduling in Optical Circuit Switch</h3>
+              <p class="publication-authors">Chao Xu, Haisheng Tan, Jiahui Hou, <b>Chi Zhang</b>, Xiang-Yang Li</p>
+              <p class="publication-venue">IEEE International Conference on Communications (IEEE ICC) 2018. <span class="publication-distinction ccf-badge ccf-c">CCF-C</span></p>
+            </div>
+            <a class="paper-link" href="assets/paper/ICC 2018.pdf" target="_blank" rel="noopener noreferrer" aria-label="Read paper: OMCO: Online Multiple Coflow Scheduling in Optical Circuit Switch"><svg class="icon" aria-hidden="true"><use href="#icon-file"/></svg><span>PDF</span></a>
+          </article>
+      </div>
+      <div class="publication-empty" id="publication-empty" hidden><svg class="icon" aria-hidden="true"><use href="#icon-search"/></svg><h3>No matching publications</h3><p>Try another keyword or a different publication type.</p></div>
+    </section>
 
-      <li> <b>边缘智能计算系统中加速推荐模型训练的样本调度机制</b> 
-        [<a href="assets/paper/CRAD 2025.pdf" target="_blank">paper</a>]. 
-        <span>李国鹏, 谈海生†, <b>张弛†</b>, 倪宏秋, 王子龙, 章馨月, 徐洋, 田晗, 陈国良, </span>
-        <span>计算机研究与发展, 2025. (<b>CCF-A 中文</b>) </span>
-    </li>
-      <li> <b>Asymptotically Tight Approximation for Online File Caching with Delayed Hits and Bypassing</b> 
-        [<a href="assets/paper/TON 2025.pdf" target="_blank">paper</a>]. 
-        <span>Haisheng Tan, Yi Wang, <b>Chi Zhang *</b>, Guopeng Li, Haohua Du, Zhenhua Han, Shaofeng H.-C. Jiang, Xiang-Yang Li, </span>
-        <span>IEEE Transactions on Networking (IEEE ToN) 2025. (<b>CCF-A</b>) </span>
-    </li>
-      <li> <b>Effective and Efficient Parallel Qubit Mapper</b> 
-        [<a href="assets/paper/TCAD 2024.pdf" target="_blank">paper</a>]. 
-        <span>Hao Fu, Mingzheng Zhu, Fangzheng Chen, <b>Chi Zhang</b>, Jun Wu, Wei Xie, Xiang-Yang Li, </span>
-        <span>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD) 2024. (<b>CCF-A</b>) </span>
-    </li>  
-    <li> <b>频谱受限下容量优化的多标签并发反射通信系统</b> 
-      [<a href="assets/paper/CRAD 2024.pdf" target="_blank">paper</a>]. 
-      <span>李向阳, 王山岳, <b>张弛</b>, 闫宇博, 谈海生, </span>
-      <span>计算机研究与发展, 2024. (<b>CCF-A 中文</b>) </span>
-  </li>
-    <li> <b>Communication-Efficient Regret-Optimal Distributed Online Convex Optimization</b> 
-      [<a href="assets/paper/TPDS 2024.pdf" target="_blank">paper</a>]. 
-      <span>Jiandong Liu, Lan Zhang, Fengxiang He, <b>Chi Zhang</b>, Shanyang Jiang, Xiang-Yang Li, </span>
-      <span>IEEE Transactions on Parallel and Distributed Systems (IEEE TPDS) 2024. (<b>CCF-A</b>) </span>
-  </li>
-    <li> <b>Online Approximation Scheme for Scheduling Heterogeneous Utility Jobs in Edge Computing</b> 
-        [<a href="assets/paper/TON 2023.pdf" target="_blank">paper</a>]. 
-        <span><b>Chi Zhang</b>, Haisheng Tan, Haoqiang Huang, Zhenhua Han, Shaofeng H-C Jiang, Guopeng Li, Xiang-Yang Li, </span>
-        <span>IEEE/ACM Transactions on Networking (IEEE/ACM ToN) 2023. (<b>CCF-A</b>) </span>
-    </li>
-    <li> <b>Regularization-based Coflow Scheduling in Optical Circuit Switches</b> 
-      [<a href="assets/paper/TON 2021.pdf" target="_blank">paper</a>]. 
-      <span>Haisheng Tan, <b>Chi Zhang</b>, Chao Xu, Yupeng Li, Zhenhua Han, Xiang-Yang Li, </span>
-      <span>IEEE/ACM Transactions on Networking (IEEE/ACM ToN) 2021. (<b>CCF-A</b>) </span>
-  </li>
-</ul>
-<h3>Conference Papers </h3>
-<ul>
-  <li> <b>Memory-Efficient KV Cache Optimization for Large Language Model Inference at the Edge</b> 
-    [<a href="assets/paper/INFOCOM 2026.pdf" target="_blank">paper</a>]. 
-    <span> <b>Chi Zhang</b>, Haisheng Tan, Haotian Pan, Yang Xu, Haohua Du, Li Zhang, Xiaoming Fu </span>
-    <span>IEEE International Conference on Computer Communications (IEEE INFOCOM) 2026. (<b>CCF-A</b>) </span>
-</li>
-  <li> <b>Online Container Caching with Late-Warm for IoT Data Processing</b> 
-    [<a href="assets/paper/ICDE 2024.pdf" target="_blank">paper</a>]. 
-    <span> Guopeng Li, Haisheng Tan, Xuan Zhang, <b>Chi Zhang</b>, Ruiting Zhou, Zhenhua Han, Guoliang Chen, </span>
-    <span>IEEE International Conference on Data Engineering (IEEE ICDE) 2024. (<b>CCF-A</b>) </span>
-</li>
-<li> <b>Ecmas: Efficient Circuit Mapping and Scheduling for Surface Code</b> 
-  [<a href="assets/paper/CGO 2024.pdf" target="_blank">paper</a>]. 
-  <span> Mingzheng Zhu, Hao Fu, Jun Wu, <b>Chi Zhang</b>, Wei Xie, Xiang-Yang Li, </span>
-  <span>IEEE/ACM International Symposium on Code Generation and Optimization (IEEE/ACM CGO) 2024. (<b>CCF-B</b>) </span>
-</li>
-<li> <b>Online Midgress-Sensitive Traffic Allocation for Percentile Charging in Pracitcal CDNs</b> 
-  [<a href="assets/paper/IWQoS 2023.pdf" target="_blank">paper</a>]. 
-  <span> Huiyou Zhan, Haisheng Tan, Huang Xu, <b>Chi Zhang</b>, Hongqiu Ni, Pengfei Zhang, Weihua Shan, Xiang-Yang Li, </span>
-  <span>IEEE/ACM International Symposium on Quality of Service (IEEE/ACM IWQoS) 2023. (<b>CCF-B, Best Paper Award Candidate</b>) </span>
-</li>
-<li> <b>Dynamic Resource Allocation for Deep Learning Clusters with Separated Compute and Storage</b> 
-  [<a href="assets/paper/INFOCOM 2023.pdf" target="_blank">paper</a>]. 
-  <span> Mingxia Li, Zhenhua Han, <b>Chi Zhang</b>, Ruiting Zhou, Yuanchi Liu, Haisheng Tan, </span>
-  <span>IEEE International Conference on Computer Communications (IEEE INFOCOM) 2023. (<b>CCF-A</b>) </span>
-</li>
-<li> <b>Online File Caching in Latency-Sensitive Systems with Delayed Hits and Bypassing</b> 
-  [<a href="assets/paper/INFOCOM 2022.pdf" target="_blank">paper</a>]. 
-  <span> <b>Chi Zhang</b>, Haisheng Tan, Guopeng Li, Zhenhua Han, Shaofeng H-C Jiang, Xiang-Yang Li, </span>
-  <span>IEEE International Conference on Computer Communications (IEEE INFOCOM) 2022. (<b>CCF-A</b>) </span>
-</li>
-<li> <b>Online File Caching on Multiple Caches in Latency-Sensitive Systems</b> 
-  [<a href="assets/paper/CSoNet 2022.pdf" target="_blank">paper</a>]. 
-  <span> Guopeng Li, <b>Chi Zhang</b>, Hongqiu Ni, Haisheng Tan, </span>
-  <span>The International Conference on Computational Data and Social Networks (CSoNet) 2022. (Invited Paper) </span>
-</li>
-<li> <b>Cross-Model Operator Batching for Neural Network Architecture Search</b> 
-  [<a href="assets/paper/WASA 2022.pdf" target="_blank">paper</a>]. 
-  <span> Lingling Ye, <b>Chi Zhang</b>, Mingxia Li, Zhenhua Han, Haisheng Tan, </span>
-  <span>International Conference on Wireless Algorithms, Systems, and Applications (WASA) 2022. (<b>CCF-C</b>) </span>
-</li>
-<li> <b>Online Dispatching and Scheduling of Jobs with Heterogeneous Utilities in Edge Computing</b> 
-  [<a href="assets/paper/MobiHoc 2020.pdf" target="_blank">paper</a>]. 
-  <span> <b>Chi Zhang</b>, Haisheng Tan, Haoqiang Huang, Zhenhua Han, Shaofeng H-C Jiang, Nikolaos Freris, Xiang-Yang Li, </span>
-  <span>ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks
-    and Mobile Computing (ACM MobiHoc) 2020. (<b>CCF-B</b>) </span>
-</li>
-<li> <b>Reco: Effcient Regularization-based Coflow Scheduling in Optical Circuit Switches</b> 
-  [<a href="assets/paper/ICDCS 2019.pdf" target="_blank">paper</a>]. 
-  <span> <b>Chi Zhang</b>, Haisheng Tan, Chao Xu, Xiang-Yang Li, Shaojie Tang, Yupeng Li, </span>
-  <span>IEEE International Conference on Distributed Computing Systems (IEEE ICDCS) 2019. (<b>CCF-B</b>) </span>
-</li>
-<li> <b>OMCO: Online Multiple Coflow Scheduling in Optical Circuit Switch</b> 
-  [<a href="assets/paper/ICC 2018.pdf" target="_blank">paper</a>]. 
-  <span> Chao Xu, Haisheng Tan, Jiahui Hou, <b>Chi Zhang</b>, Xiang-Yang Li, </span>
-  <span>IEEE International Conference on Communications (IEEE ICC) 2018. (<b>CCF-C</b>) </span>
-</li>
+    <section class="content-section honors-section" id="honors" aria-labelledby="honors-title">
+      <div class="section-heading"><p class="section-kicker">04 / Recognition</p><h2 id="honors-title">Honors &amp; awards<span class="heading-dot">.</span></h2></div>
+      <ol class="awards-list">
+          <li class="award"><span class="award-year">2023</span><p>Humboldt Research Fellowship (洪堡学者, Host Professor: <a href="https://user.informatik.uni-goettingen.de/~fu/" target="_blank" rel="noopener noreferrer">Prof. Xiaoming Fu</a>)</p></li>
+          <li class="award"><span class="award-year">2023</span><p>CAS President Award, Excellence Prize (中科院院长奖优秀奖)</p></li>
+          <li class="award"><span class="award-year">2022</span><p>National Scholarship, Ph.D. Student (国家奖学金, Top 3% in School of Computer Science and Technology)</p></li>
+          <li class="award"><span class="award-year">2021</span><p>National Scholarship, Ph.D. Student (国家奖学金, Top 3% in School of Computer Science and Technology)</p></li>
+          <li class="award"><span class="award-year">2017</span><p>Graduated with Talent Program in Computer and Information Science and Technology (中国科学技术大学计算机英才班荣誉毕业)</p></li>
+          <li class="award"><span class="award-year">2016</span><p>National Scholarship, Undergraduate (国家奖学金, Top 3% in School of Computer Science and Technology)</p></li>
+          <li class="award"><span class="award-year">2012</span><p>National Olympiad in Informatics in Provinces, First Prize (NOIP, 一等奖)</p></li>
+          <li class="award"><span class="award-year">2012</span><p>National Olympiad in Informatics, Bronze Medal (NOI, 三等奖)</p></li>
+          <li class="award"><span class="award-year">2011</span><p>National Olympiad in Informatics in Provinces, First Prize (NOIP, 一等奖)</p></li>
+      </ol>
+    </section>
+  </main>
 
-</ul>
-
-<h3>Awards </h3>
-<ul>
-
-  <li> <b>Humbolt Research Fellowship (洪堡学者, Host Professor: <a href="https://user.informatik.uni-goettingen.de/~fu/" target="_blank">Prof. Xiaoming Fu</a>), 2023.</b>
-  </li>
-  <li> <b>CAS President Award, Excellence Prize (中科院院长奖优秀奖), 2023.</b>
-  </li>
-  <li> <b>National Scholarship, Ph.D. Student (国家奖学金, Top 3% in School of Computer Science and Technology), 2022.</b>
-  </li>
-  <li> <b>National Scholarship, Ph.D. Student (国家奖学金, Top 3% in School of Computer Science and Technology), 2021.</b>
-  </li>
-  <li> <b>Graduated with Talent Program in Computer and Information Science and Technology (中国科学技术大学计算机英才班荣誉毕业), 2017.</b>
-  </li>
-  <li> <b>National Scholarship, Undergraduate (国家奖学金, Top 3% in School of Computer Science and Technology), 2016.</b>
-  </li>
-  <li> <b>National Olympiad in Informatics in Provinces, First Prize (NOIP, 一等奖), 2012.</b>
-  </li>
-  <li> <b>National Olympiad in Informatics, Bronze Medal (NOI, 三等奖), 2012.</b>
-  </li>
-  <li> <b>National Olympiad in Informatics in Provinces, First Prize (NOIP, 一等奖), 2011.</b>
-  </li>
-</ul>
-
+  <footer class="site-footer"><div class="footer-inner"><a href="#top">Back to top <svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></a></div></footer>
 </body>
 </html>
- 

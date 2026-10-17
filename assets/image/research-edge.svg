@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud and edge computing</title>
+  <desc id="desc">A cloud connects to a nearby edge server, which serves a phone, a sensor, and a laptop.</desc>
+  <rect width="320" height="180" rx="16" fill="#f8f9f6"/>
+  <g stroke="#b6caa8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 55V76M160 113V126H63V139M160 126V139M160 126H257V139"/>
+    <path d="M156 69L160 73L164 69M59 132L63 136L67 132M156 132L160 136L164 132M253 132L257 136L261 132"/>
+  </g>
+  <path d="M137 54C130 54 125 49 125 43C125 37 129 33 135 32C136 23 143 18 152 20C159 10 177 15 180 27C189 26 196 32 196 40C196 48 190 54 182 54H137Z" fill="#fff" stroke="#28654e" stroke-width="1.5" stroke-linejoin="round"/>
+  <g font-family="Arial, sans-serif" font-size="9" letter-spacing="1" fill="#28654e">
+    <text x="143" y="41">CLOUD</text>
+  </g>
+  <rect x="125" y="77" width="70" height="36" rx="7" fill="#28654e"/>
+  <rect x="132" y="84" width="56" height="10" rx="2.5" fill="#fff" fill-opacity=".13"/>
+  <rect x="132" y="98" width="56" height="8" rx="2.5" fill="#fff" fill-opacity=".13"/>
+  <g fill="#b6caa8">
+    <circle cx="138" cy="89" r="1.5"/>
+    <circle cx="138" cy="102" r="1.5"/>
+  </g>
+  <circle cx="144" cy="89" r="1.5" fill="#d6b976"/>
+  <g stroke="#b6caa8" stroke-width="1.2" stroke-linecap="round">
+    <path d="M174 88H182M174 91H182M174 102H182"/>
+  </g>
+  <text x="203" y="99" font-family="Arial, sans-serif" font-size="9" letter-spacing="1" fill="#28654e">EDGE</text>
+  <rect x="53" y="138" width="20" height="31" rx="4" fill="#fff" stroke="#28654e" stroke-width="1.5"/>
+  <path d="M59 143H67M58 162H68" stroke="#b6caa8" stroke-width="1.2" stroke-linecap="round"/>
+  <rect x="58" y="148" width="10" height="9" rx="2" fill="#b6caa8"/>
+  <rect x="147" y="141" width="26" height="25" rx="6" fill="#fff" stroke="#28654e" stroke-width="1.5"/>
+  <circle cx="160" cy="154" r="4" fill="#d6b976"/>
+  <path d="M153 139C157 135 163 135 167 139M150 135C156 129 164 129 170 135" stroke="#8caa87" stroke-width="1.2" stroke-linecap="round"/>
+  <rect x="240" y="140" width="34" height="23" rx="3" fill="#fff" stroke="#28654e" stroke-width="1.5"/>
+  <rect x="245" y="145" width="24" height="13" rx="1" fill="#e4ebde"/>
+  <path d="M236 167H278L274 163H240L236 167Z" fill="#b6caa8" stroke="#28654e" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>
